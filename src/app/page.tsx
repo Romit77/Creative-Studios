@@ -2,6 +2,7 @@ import FeaturedCourses from "@/components/FeaturedCourses";
 import HeroSection from "@/components/HeroSection";
 import ChooseScroll from "@/components/ChooseScroll";
 import Cards from "@/components/Cards";
+import UpcomingWeb from "@/components/UpcomingWeb";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <FeaturedCourses />
       <ChooseScroll />
       <Cards />
+      <UpcomingWeb />
     </main>
   );
 }
