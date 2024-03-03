@@ -12,17 +12,16 @@ const featuredWebinars = [
     link: "/",
   },
   {
-    title: "The Art of Songwriting",
+    title: "The Art of Programming",
     description:
-      "Learn the craft of songwriting from experienced musicians and songwriters.",
+      "Learn the craft of Programming from experienced programmers and developers.",
     slug: "the-art-of-songwriting",
     isFeatured: true,
     link: "/",
   },
   {
-    title: "Mastering Your Instrument",
-    description:
-      "Advanced techniques to master your musical instrument of choice.",
+    title: "Mastering Your atheletics",
+    description: "Advanced techniques to master your sport of choice.",
     slug: "mastering-your-instrument",
     isFeatured: true,
     link: "/",
@@ -80,7 +79,7 @@ function UpcomingWeb() {
           <div className="mt-10 text-center">
             <Link
               href={"/"}
-              className="px-4 py-2 rounded border border-neutral-600 text-neutral-700 bg-white hover:bg-gray-100 transition duration-200"
+              className="px-4 py-2  border border-neutral-600 text-neutral-700 bg-white hover:bg-gray-100 transition duration-200 rounded-lg font-semibold "
             >
               View All webinars
             </Link>
