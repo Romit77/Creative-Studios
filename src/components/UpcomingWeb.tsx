@@ -56,7 +56,7 @@ const featuredWebinars = [
 function UpcomingWeb() {
   return (
     <div>
-      <div className="py-12 bg-zinc-950">
+      <div className="  py-12 bg-zinc dark:bg-black bg-white  dark:bg-dot-white/[0.2] bg-dot-black/[0.2] relative ">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="text-center ">
             <h2 className="text-base text-teal-600 font-semibold tracking-wide uppercase">
@@ -76,10 +76,10 @@ function UpcomingWeb() {
               }))}
             />
           </div>
-          <div className="mt-10 text-center">
+          <div className="mt-10 text-center ">
             <Link
               href={"/"}
-              className="px-4 py-2  border border-neutral-600 text-neutral-700 bg-white hover:bg-gray-100 transition duration-200 rounded-lg font-semibold "
+              className="px-4 py-2  border border-neutral-600  bg-zinc hover:bg-gray-900 transition duration-200 rounded-lg font-semibold text-white"
             >
               View All webinars
             </Link>
