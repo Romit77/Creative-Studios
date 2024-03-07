@@ -4,6 +4,7 @@ import ChooseScroll from "@/components/ChooseScroll";
 import Cards from "@/components/Cards";
 import UpcomingWeb from "@/components/UpcomingWeb";
 import Instructors from "@/components/Instructors";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Cards />
       <UpcomingWeb />
       <Instructors />
+      <Footer />
     </main>
   );
 }
